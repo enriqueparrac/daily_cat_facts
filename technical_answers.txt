@@ -1,0 +1,58 @@
+1. What are the supported data types in Python?
+bool	immutable
+bytearray	mutable
+bytes	immutable
+complex	immutable
+dict	mutable
+types.EllipsisType	immutable
+float	immutable
+frozenset	immutable
+int	immutable
+list	mutable
+types.NoneType	immutable
+types.NotImplementedType	immutable
+range	immutable
+set	mutable
+str	immutable
+tuple	immutable
+
+
+2. What is the difference between tuples and lists in Python?
+Lists are mutable while tuples are immutable.
+What does this mean? We can change/modify the values of a list but we cannot change/modify the values of a tuple
+
+
+3. What are Python decorators?
+A decorator is a design pattern in Python that allows a user to add new functionality to an existing object without modifying its structure. Decorators are usually called before the definition of a function you want to decorate.
+
+
+4. What are generators in Python?
+Python generators are a simple way of creating iterators. 
+A generator is a function that returns an object (iterator) which we can iterate over (one value at a time).
+
+
+5. What are shallow and deep copy operations?
+A shallow copy constructs a new composite object and then (as far as possible) inserts references into it to objects found in the original.
+A deep copy constructs a new composite object and then recursively inserts copies of the objects found in the original into it.
+
+
+6. Explain Dependency Injection?
+It's a technique that allows developing programs with a high level of cohesion and a low level of coupling. 
+Perfect for creating robust, scalable and flexible programs.
+
+Cohesion is a measure that allows knowing how much relationship there is in a block of code with itself.
+Coupling is the way in which components of our code are related to each other.
+
+
+7. Explain how you can make a Python Script executable on Unix?
+a) Put this in the first line of the script
+#!/usr/bin/env python 
+
+b) Make the file executable with
+chmod +x myfile.py
+
+c) Execute with
+./myfile.py 
+
+
+
