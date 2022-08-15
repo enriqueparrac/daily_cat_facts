@@ -2,7 +2,7 @@
 
 
 ## Requirements
-Python version: 3.10.5
+Python version: 3.10.5, 
 API framework: FastAPI
 
 
